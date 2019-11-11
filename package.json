@@ -1,0 +1,20 @@
+{
+  "name": "configautoimporter",
+  "version": "1.0.0",
+  "description": "auto import config",
+  "keywords": [
+    "node",
+    "config"
+  ],
+  "author": "Park Si-Yual",
+  "license": "MIT",
+  "main": "dist/autoconfig.js",
+  "files": [
+    "dist",
+    "lib",
+    "!dist/test"
+  ],
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
