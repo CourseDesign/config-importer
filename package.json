@@ -8,7 +8,7 @@
   ],
   "author": "Park Si-Yual",
   "license": "MIT",
-  "main": "dist/autoconfig.js",
+  "main": "dist/configAutoImporter.js",
   "files": [
     "dist",
     "lib",
