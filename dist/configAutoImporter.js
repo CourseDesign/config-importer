@@ -1,5 +1,5 @@
 const setConfigDirectory = require('../lib/setConfigDirectory');
 
 module.exports = {
-  setConfigDirectory,
+  import: setConfigDirectory,
 };

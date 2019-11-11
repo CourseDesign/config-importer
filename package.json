@@ -1,6 +1,6 @@
 {
   "name": "configautoimporter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "auto import config",
   "keywords": [
     "node",
