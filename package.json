@@ -1,6 +1,6 @@
 {
-  "name": "configautoimporter",
-  "version": "1.0.2",
+  "name": "@araxsiyual/config-importer",
+  "version": "1.0.0",
   "description": "auto import config",
   "keywords": [
     "node",
