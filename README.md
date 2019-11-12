@@ -21,15 +21,15 @@ const config = configImporter.import(__dirname, /*option*/);
 
 ```javascript
 {
-    "env": process.env.NODE_ENV || 'development'
+    "env":  process.env.NODE_ENV || 'development'
 }
 ```
 
 - `env`: Environment status, it will read `env`.js file, and make config
 
 
-
-## .env file variable name
+## Example
+### .env file variable name
 
 #### common.js
 
@@ -51,7 +51,7 @@ PARENT_CHILD_A = 1
 
 
 
-#### if environment status is development
+### if environment status is development
 
 #### .env
 
