@@ -1,14 +1,14 @@
 {
   "name": "@araxsiyual/config-importer",
-  "version": "1.0.2",
-  "description": "auto import config",
+  "version": "1.0.3",
+  "description": "config importer",
   "keywords": [
     "node",
     "config"
   ],
   "author": "Park Si-Yual",
   "license": "MIT",
-  "main": "dist/configAutoImporter.js",
+  "main": "dist/configImporter.js",
   "files": [
     "dist",
     "lib",
