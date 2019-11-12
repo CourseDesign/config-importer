@@ -21,12 +21,13 @@ const config = configImporter.import(__dirname, /*option*/);
 
 ```javascript
 {
-    "env":  process.env.NODE_ENV || 'development'
+    "env":  process.env.NODE_ENV || 'development',
+    "valueName": 'valueName'
 }
 ```
 
 - `env`: Environment status, it will read `env`.js file, and make config
-
+- `valueName`: If object have `valueName`, module use `valueName`'s value for read System value or .env, If the object does not have a `valueName`, module use object name for read System value or .env
 
 ## Example
 ### .env file variable name
