@@ -1,12 +1,17 @@
 {
   "name": "@araxsiyual/config-importer",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "config importer",
   "keywords": [
     "node",
     "config"
   ],
   "author": "Park Si-Yual",
+  "homepage": "https://github.com/kdPark0723/config-importer",
+  "bugs": {
+    "url": "https://github.com/kdPark0723/config-importer/issues",
+    "email": "kdpark023@gmail.com"
+  },
   "license": "MIT",
   "main": "dist/configImporter.js",
   "files": [
