@@ -2,7 +2,7 @@
 
 Developers can manage environment variables in various stages, such as production, test, development, etc.  
 Developers can set default status by option or NODE_ENV. if you not set default status, it will be development  
-Environment variables are created in the default.js and `yourEnvironmentStatus`.js  
+Environment variables are created in the common.js and `yourEnvironmentStatus`.js  
 However, if an environment variable is declared in an .env file or a system environment variable, that value takes precedence.
 
 
@@ -34,7 +34,7 @@ const config = configImporter.import(__dirname, /*option*/);
 ## Example
 ### .env file variable name
 
-#### default.js
+#### common.js
 
 ```javascript
 module.exports = {
