@@ -95,7 +95,7 @@ module.exports = config;
 
 - **config is**
 
-  ```
+  ```javascript
   {
       parent: {
           childA: 2,
