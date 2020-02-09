@@ -1,9 +1,6 @@
-# Config Importer
+# Config Importer ![](https://img.shields.io/npm/dm/@araxsiyual/config-importer.png?style=flat-square)
 
-Developers can manage environment variables in various stages, such as production, test, development, etc.  
-Developers can set default status by option or NODE_ENV. if you not set default status, it will be development  
-Environment variables are created in the common.js and `yourEnvironmentStatus`.js  
-However, if an environment variable is declared in an .env file or a system environment variable, that value takes precedence.
+​	Developers can manage environment variables in various stages, such as production, test, development, etc.  Developers can set default status by option or NODE_ENV. if you not set default status, it will be development  Environment variables are created in the common.js and `yourEnvironmentStatus`.js  However, if an environment variable is declared in an .env file or a system environment variable, that value takes precedence.
 
 
 
@@ -21,9 +18,9 @@ const config = configImporter.import(__dirname, /*option*/);
 
 ```javascript
 {
-    "env":  process.env.NODE_ENV || "development",
-    "valueName": "valueName",
-    "default": "common"
+    "env";:  process.env.NODE_ENV || "development",
+    "valueName";: "valueName",
+    "default";: "common"
 }
 ```
 
@@ -84,9 +81,9 @@ module.exports = config;
 
   ```javascript
   {
-      parent: {
-          childA: 1,
-          childB: 0
+      {
+          1,
+          childB;: 0
       }
   }
   ```
@@ -97,9 +94,9 @@ module.exports = config;
 
   ```javascript
   {
-      parent: {
-          childA: 2,
-          childB: 0
+      {
+          2,
+          childB;: 0
       }
   }
   ```
